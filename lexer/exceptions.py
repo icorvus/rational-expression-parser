@@ -1,0 +1,2 @@
+class IllegalCharacterError(Exception):
+    pass

@@ -1,0 +1,11 @@
+[tool.ruff]
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["ALL"]
+ignore = ["ANN", "D", "S311", "TRY003", "COM812", "ISC001", "T201"]
+
+# per file ignore
+[tool.ruff.lint.per-file-ignores]
+"lexer/__init__.py" = ["N"]
+"parser_/__init__.py" = ["N"]
